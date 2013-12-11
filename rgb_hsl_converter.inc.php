@@ -33,7 +33,7 @@ function validate_hex($hex) {
 
 // Converts hex color code to RGB color
 // Input: String - Format #ffffff, #fff, ffffff or fff
-// Output: Array(Red, Green, Blue) - Values from 0 to 1
+// Output: Array(Hue, Saturation, Lightness) - Values from 0 to 1
 function hex2hsl($hex) {
     //Validate Hex Input
     $hex = validate_hex($hex);
