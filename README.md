@@ -26,11 +26,7 @@ Array
 
 To generate a brighter version of this we can change the lightness level and convert it back to a RGB hex code:
 ```php
-$hsl = array (
-    0 => 0,
-    1 => 0.81176470588235,
-    2 => 0.8
-);
+$hsl = array (0, 0.81176470588235, 0.8);
 $hex = hsl2hex($hsl);
 print_r($hex);
 ```
